@@ -32,10 +32,10 @@ public class MainActivity extends AppCompatActivity {
         String strA = editTextSoA.getText().toString();
         String strB = editTextSoB.getText().toString();
 
-        int so_A = Integer.parseInt(strA);
-        int so_B = Integer.parseInt(strB);
+        float so_A = Float.parseFloat(strA);
+        float so_B = Float.parseFloat(strB);
 
-        int bmi = so_B / (so_A * so_A);
+        float bmi = (so_B / (so_A * so_A));
 
         String strBMI = String.valueOf(bmi);
 
