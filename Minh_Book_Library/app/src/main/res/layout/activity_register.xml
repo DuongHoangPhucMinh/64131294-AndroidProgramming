@@ -1,8 +1,78 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
-    android:padding="16dp">
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/splash_background"
+    tools:context=".RegisterActivity">
 
-    <EditText android:id="@+id/username" android:hint="Username" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-    <EditText android:id="@+id/password" android:hint="Password" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword"/>
-    <Button android:id="@+id/registerBtn" android:text="Register" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/registerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng ký"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Tên đăng nhập"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="8dp"
+                android:inputType="textPersonName"
+                android:background="@drawable/edittext_background"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Mật khẩu"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="8dp"
+                android:inputType="textPassword"
+                android:background="@drawable/edittext_background"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp" />
+
+
+            <Button
+                android:id="@+id/registerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Đăng ký"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/colorPrimary"
+                app:cornerRadius="20dp"
+                android:elevation="4dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
 </LinearLayout>

@@ -61,7 +61,7 @@ public class BookDetails extends AppCompatActivity {
         bookIV = findViewById(R.id.bookImage);
 
         // Change button text from "Buy" to "Save"
-        saveBtn.setText("Save Book");
+        saveBtn.setText("Lưu sách");
 
         // Getting data passed from the adapter class
         Intent intent = getIntent();
@@ -94,7 +94,7 @@ public class BookDetails extends AppCompatActivity {
 
         // Check if book is already saved and update button text
         if (db.isBookSaved(title)) {
-            saveBtn.setText("Remove Book");
+            saveBtn.setText("Bỏ lưu");
         }
 
         // Adding click listener for preview button
@@ -112,10 +112,10 @@ public class BookDetails extends AppCompatActivity {
             if (db.isBookSaved(title)) {
                 // Remove book if already saved
                 if (db.removeSavedBook(title)) {
-                    Toast.makeText(BookDetails.this, "Book removed from your library", Toast.LENGTH_SHORT).show();
-                    saveBtn.setText("Save Book");
+                    Toast.makeText(BookDetails.this, "Sách đã dược bỏ lưu", Toast.LENGTH_SHORT).show();
+                    saveBtn.setText("Lưu sách");
                 } else {
-                    Toast.makeText(BookDetails.this, "Failed to remove book", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(BookDetails.this, "Bỏ lưu sách thất bại", Toast.LENGTH_SHORT).show();
                 }
             } else {
                 // Save book
@@ -125,10 +125,10 @@ public class BookDetails extends AppCompatActivity {
                 );
 
                 if (db.saveBook(bookInfo)) {
-                    Toast.makeText(BookDetails.this, "Book saved to your library", Toast.LENGTH_SHORT).show();
-                    saveBtn.setText("Remove Book");
+                    Toast.makeText(BookDetails.this, "Sách đã dược lưu", Toast.LENGTH_SHORT).show();
+                    saveBtn.setText("Bỏ lưu");
                 } else {
-                    Toast.makeText(BookDetails.this, "Failed to save book", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(BookDetails.this, "Lưu sách thất bại", Toast.LENGTH_SHORT).show();
                 }
             }
         });

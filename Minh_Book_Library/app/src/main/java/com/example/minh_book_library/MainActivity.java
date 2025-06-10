@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Set welcome message
         String username = DatabaseHelper.getCurrentUser();
-        welcomeText.setText("Welcome, " + username + "!");
+        welcomeText.setText("Xin chào, " + username + "!");
 
         // Display saved books
         displaySavedBooks();
@@ -112,10 +112,10 @@ public class MainActivity extends AppCompatActivity {
     private void displaySavedBooks() {
         ArrayList<BookInfo> savedBooks = db.getSavedBooks();
         if (savedBooks.isEmpty()) {
-            savedBooksTitle.setText("You haven't saved any books yet");
+            savedBooksTitle.setText("Chưa có sách nào được lưu");
             savedBooksRecyclerView.setVisibility(View.GONE);
         } else {
-            savedBooksTitle.setText("Your Saved Books:");
+            savedBooksTitle.setText("Sách đã lưu:");
             savedBooksRecyclerView.setVisibility(View.VISIBLE);
             BookAdapter adapter = new BookAdapter(savedBooks, this);
             savedBooksRecyclerView.setAdapter(adapter);
@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
 
                     try {
                         if (!response.has("items")) {
-                            Toast.makeText(this, "No books found for this search", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(this, "Không tìm thấy sách", Toast.LENGTH_SHORT).show();
                             return;
                         }
 
