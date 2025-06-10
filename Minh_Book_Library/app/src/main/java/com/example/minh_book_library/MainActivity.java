@@ -271,4 +271,17 @@ public class MainActivity extends AppCompatActivity {
 
         mRequestQueue.add(booksObjRequest);
     }
+    @Override
+    public void onBackPressed() {
+        // Kiểm tra nếu đang hiển thị kết quả tìm kiếm, thì quay lại danh sách đã lưu
+        if (!showingSavedBooks) {
+            showingSavedBooks = true;
+            recyclerView.setVisibility(View.GONE);
+            savedBooksRecyclerView.setVisibility(View.VISIBLE);
+            savedBooksTitle.setText("Sách đã lưu:");
+            displaySavedBooks();
+        } else {
+            super.onBackPressed(); // Nếu không thì thực sự thoát ứng dụng
+        }
+    }
 }
