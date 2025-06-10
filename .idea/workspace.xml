@@ -5,43 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5e722d4-492d-45a2-9014-66fa819e37ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/androidTest/java/minh/edu/appcong/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/java/minh/edu/appcong/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/app/src/test/java/minh/edu/appcong/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex3_SimpleSumApp/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,22 +21,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DuongHoangPhucMinh"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DuongHoangPhucMinh&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DuongHoangPhucMinh/64131294-AndroidProgramming.git",
-    "accountId": "a91095a7-33b8-4f3f-86d1-2ff03b740e12"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DuongHoangPhucMinh/64131294-AndroidProgramming.git&quot;,
+    &quot;accountId&quot;: &quot;a91095a7-33b8-4f3f-86d1-2ff03b740e12&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ta8ShVBcjXuja4V5eiVhshKM1d" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -79,6 +46,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
